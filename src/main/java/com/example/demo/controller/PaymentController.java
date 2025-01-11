@@ -52,7 +52,7 @@ public class PaymentController {
     // Delete Payment
     @DeleteMapping("/{id}")
     public void deletePayment(@PathVariable Long id) {
-        paymentService.deletePayment(id);
+        paymentService.deletePayment(id );
     }
 }
 
